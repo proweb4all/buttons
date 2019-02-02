@@ -120,6 +120,7 @@ button {
 }
 
 .btn_light.disable {
+  color: #454545;
   background: -webkit-gradient(linear, left bottom, left top, from(#cfcfcf), color-stop(#e9e9e9), to(#cfcfcf)) !important;
   background: -webkit-linear-gradient(bottom, #cfcfcf, #e9e9e9, #cfcfcf) !important;
   background: -o-linear-gradient(bottom, #cfcfcf, #e9e9e9, #cfcfcf) !important;
