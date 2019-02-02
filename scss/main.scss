@@ -53,10 +53,14 @@ button {
       background: linear-gradient(to top, $bggs-dark, lighten($bggs-dark, 10%), $bggs-dark);
 		}
 		&:not([disabled]):hover{
-			box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+			box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 		}
 		&:not([disabled]):active{
       background: linear-gradient(to top, $bg-dark, darken($bg-dark, 10%), $bg-dark);
+		}
+		&.disable{
+      background: linear-gradient(to top, $bggs-dark, lighten($bggs-dark, 10%), $bggs-dark) !important;
+			box-shadow: none !important;
 		}
 	}
 	&_light{
@@ -67,10 +71,14 @@ button {
       background: linear-gradient(to top, $bggs-light, lighten($bggs-light, 10%), $bggs-light);
 		}
 		&:not([disabled]):hover{
-			box-shadow:         0px 0px 5px 0px rgba(250, 250, 250, 0.75);
+			box-shadow:         0px 0px 6px 0px rgba(250, 250, 250, 0.75);
 		}
 		&:not([disabled]):active{
       background: linear-gradient(to top, $bg-light, darken($bg-light, 10%), $bg-light);
+		}
+		&.disable{
+      background: linear-gradient(to top, $bggs-light, lighten($bggs-light, 10%), $bggs-light) !important;
+			box-shadow: none !important;
 		}
 	}
 	&_small{
