@@ -58,7 +58,8 @@ button {
 		&:not([disabled]):active{
       background: linear-gradient(to top, $bg-dark, darken($bg-dark, 10%), $bg-dark);
 		}
-		&.disable{
+		&-disabled{
+			color: #fff;
       background: linear-gradient(to top, $bggs-dark, lighten($bggs-dark, 10%), $bggs-dark) !important;
 			box-shadow: none !important;
 		}
@@ -76,7 +77,7 @@ button {
 		&:not([disabled]):active{
       background: linear-gradient(to top, $bg-light, darken($bg-light, 10%), $bg-light);
 		}
-		&.disable{
+		&-disabled{
 			color: darken($bggs-dark, 10%);
       background: linear-gradient(to top, $bggs-light, lighten($bggs-light, 10%), $bggs-light) !important;
 			box-shadow: none !important;
